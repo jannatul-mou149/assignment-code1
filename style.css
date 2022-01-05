@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+
+}
+#my-mission-h1{
+    text-align: center;
+    color: navy;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.orange{
+    color:darkorange;
+}
+.flex-container1{
+    display: flex;
+    margin-bottom: 50px;
+}
+.container1-width{
+    width: 50%;
+    padding: 5%;
+}
+
+.explore-button{
+   
+    text-decoration: none;
+    background-color:darkorange;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: larger;
+    
+
+} 
+.h1-style{
+    border-left: 7px solid;
+    border-image: darkorange;
+    border-radius: 7px;
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+.flex-mission-item{
+    display: flex;
+    
+}
+.my-mission-item{
+    
+    width: 50%;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+#mission{
+    background-color:rgb(165, 181, 201);
+}
+
+#vission{
+    background-color: rgb(253, 190, 199);
+}
+
+#goals{
+    background-color:lightyellow;
+}
