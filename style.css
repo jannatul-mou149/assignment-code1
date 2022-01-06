@@ -5,7 +5,16 @@ body{
 h1{
     font-size: 50px;
     font-weight: 900;
+    margin: 0;
+   
 
+}
+h2{
+    font-weight: 900;
+    margin: 0;
+}
+#corona-h1{
+    text-align: center;
 }
 #my-mission-h1{
     text-align: center;
@@ -67,4 +76,15 @@ h1{
 
 #goals{
     background-color:lightyellow;
+}
+.develop-limit{
+    display: flex;
+}
+.limit-item{
+    
+    padding: 5%;
+    
+}
+.img-width{
+    width: 40%;
 }
