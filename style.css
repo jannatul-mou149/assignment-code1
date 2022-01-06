@@ -121,33 +121,29 @@ footer{
     width: 35%;
     height: 40%;
 }
-.bg-image{
+.form{
     background-color:rgba(0,0,0,0.1) ;
     color: #fff;
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 20px;
-    margin: 1% 40%;
+    padding: 20px 25px;
+    margin: 0 auto;
     box-shadow: 2px 2Spx 15px rgba(0,0,0,0.3);
     border: 1px solid  rgb(255, 255, 255, 0.3);
-    
-    
-   
-   
+    width: 350px;
 }
 .submit-button{
    
     text-decoration: none;
     background-color:whitesmoke;
     color: black;
-    padding: 15px 40px;
+    padding: 8px 25px;
+    margin-top: 20px;
     border-radius: 30px;
-    border-style: solid;
-    border-color: rgb(99, 110, 121);
+    border: 2px solid;
+    border-color: indianred;
     font-weight: 500;
-    font-size: larger;
-    
-
+    font-size: 15px;
 } 
 
 .bg-shape{
@@ -169,11 +165,15 @@ footer{
 }
 .input-box{
     border-radius: 20px;
-    padding: 10px;
-    margin: 10x 0;
-    width: 80%;
-    border: 1px solid #999999;
+    padding: 10px 20px;
+    margin: 4px auto;
+    width: 300px;
+    border: 1px solid indianred;
     outline: none;
+}
+.submit-button:hover{
+    background-color: indianred;
+    color: lavenderblush;
 }
 .last-section{
     background-image: url(images/marble.jpg);
@@ -181,4 +181,3 @@ footer{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
