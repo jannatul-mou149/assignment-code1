@@ -110,6 +110,7 @@ footer{
     text-align: center;
     background-color: rgb(17, 17, 32);
     padding: 40px;
+    margin: 0;
 }
 .banner1{
     background-image: url(images/shapes/shape-1.png);
@@ -121,9 +122,16 @@ footer{
     height: 40%;
 }
 .bg-image{
-    background:rgba(185, 163, 135, 0.2);
+    background-color:rgba(0,0,0,0.1) ;
+    color: #fff;
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1% 40%;
+    box-shadow: 2px 2Spx 15px rgba(0,0,0,0.3);
+    border: 1px solid  rgb(255, 255, 255, 0.3);
+    
+    
    
    
 }
@@ -167,3 +175,10 @@ footer{
     border: 1px solid #999999;
     outline: none;
 }
+.last-section{
+    background-image: url(images/marble.jpg);
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
