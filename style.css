@@ -26,6 +26,9 @@ h2{
 .orange{
     color:darkorange;
 }
+.reddish{
+    color: brown;
+}
 .flex-container1{
     display: flex;
     margin-bottom: 50px;
@@ -87,4 +90,16 @@ h2{
 }
 .img-width{
     width: 40%;
+}
+
+#mission2020-font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+footer{
+    color: mintcream;
+    text-align: center;
+    background-color: midnightblue;
+    padding: 40px;
 }
