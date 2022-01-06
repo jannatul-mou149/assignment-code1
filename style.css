@@ -122,8 +122,8 @@ footer{
     height: 40%;
 }
 .form{
-    background-color:rgba(0,0,0,0.1) ;
-    color: #fff;
+    background-color:rgba(0,0,0,0.04) ;
+    color:#fff;
     background-repeat: no-repeat;
     border-radius: 10px;
     padding: 20px 25px;
@@ -135,7 +135,7 @@ footer{
 .submit-button{
    
     text-decoration: none;
-    background-color:whitesmoke;
+    background-color:transparent;
     color: black;
     padding: 8px 25px;
     margin-top: 20px;
@@ -170,13 +170,14 @@ footer{
     width: 300px;
     border: 1px solid indianred;
     outline: none;
+    background-color: transparent;
 }
 .submit-button:hover{
     background-color: indianred;
     color: lavenderblush;
 }
 .last-section{
-    background-image: url(images/marble.jpg);
+    background-image: url(images/white.jpg);
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100%;
